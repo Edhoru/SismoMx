@@ -19,6 +19,8 @@ class CenterTableViewCell: UITableViewCell {
     var addressLbl = UILabel()
     var addressData = UILabel()
     var zoneData = UILabel()
+    var lastUpdateLbl = UILabel()
+    var lastUpdateData = UILabel()
     
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
@@ -33,6 +35,8 @@ class CenterTableViewCell: UITableViewCell {
         mainView.addSubview(addressLbl)
         mainView.addSubview(addressData)
         mainView.addSubview(zoneData)
+        mainView.addSubview(lastUpdateLbl)
+        mainView.addSubview(lastUpdateData)
         
         
     }
@@ -68,8 +72,8 @@ class CenterTableViewCell: UITableViewCell {
         
         
         receiveLbl.frame = UIElements.createFrame(x: 5, y: requestData.frame.size.height + requestData.frame.origin.y + 5, w:  self.frame.size.width - 20, h: 100)
-        receiveLbl.text  = "reciben"
-        receiveLbl.textColor = Colors.red
+        receiveLbl.text  = "Reciben"
+        receiveLbl.textColor = Colors.green
         receiveLbl.sizeToFit()
         
         receiveData.frame = UIElements.createFrame(x: 5, y: receiveLbl.frame.size.height + receiveLbl.frame.origin.y + 5, w:  self.frame.size.width - 20 , h: 100)
@@ -77,5 +81,29 @@ class CenterTableViewCell: UITableViewCell {
         receiveData.numberOfLines = 10
         receiveData.sizeToFit()
         
+        addressLbl.frame = UIElements.createFrame(x: 5, y: receiveData.frame.size.height + receiveData.frame.origin.y + 5, w:  self.frame.size.width - 20, h: 100)
+        addressLbl.text  = "Dirección"
+        addressLbl.textColor = Colors.red
+        addressLbl.sizeToFit()
+        
+        addressData.frame = UIElements.createFrame(x: 5, y: addressLbl.frame.size.height + addressLbl.frame.origin.y + 5, w:  self.frame.size.width - 20 , h: 100)
+        addressData.text = center.object(forKey: "DIRECCION") as? String
+        addressData.numberOfLines = 10
+        addressData.sizeToFit()
+        
+        zoneData.frame = UIElements.createFrame(x: 5, y: addressData.frame.size.height + addressData.frame.origin.y + 5, w:  self.frame.size.width - 20 , h: 100)
+        zoneData.text = center.object(forKey: "ZONA") as? String
+        zoneData.numberOfLines = 10
+        zoneData.sizeToFit()
+        
+        lastUpdateLbl.frame = UIElements.createFrame(x: 5, y: zoneData.frame.size.height + zoneData.frame.origin.y + 5, w:  self.frame.size.width - 20, h: 100)
+        lastUpdateLbl.text  = "Última actualización"
+        lastUpdateLbl.textColor = Colors.red
+        lastUpdateLbl.sizeToFit()
+        
+        lastUpdateData.frame = UIElements.createFrame(x: 5, y: lastUpdateLbl.frame.size.height + lastUpdateLbl.frame.origin.y + 5, w:  self.frame.size.width - 20 , h: 100)
+        lastUpdateData.text = center.object(forKey: "ACTUALIZACION") as? String
+        lastUpdateData.numberOfLines = 10
+        lastUpdateData.sizeToFit()
     }
 }
