@@ -16,6 +16,8 @@
 		46595CBA1F74AA94000162F1 /* SismoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46595CB91F74AA94000162F1 /* SismoTests.swift */; };
 		46595CC51F74AA94000162F1 /* SismoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46595CC41F74AA94000162F1 /* SismoUITests.swift */; };
 		46595CD41F74AAD9000162F1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46595CD31F74AAD9000162F1 /* ApiManager.swift */; };
+		54390C181F74CD8200F7E5C6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54390C171F74CD8200F7E5C6 /* Utilities.swift */; };
+		54390C1A1F74CE5900F7E5C6 /* CenterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54390C191F74CE5900F7E5C6 /* CenterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		46595CC41F74AA94000162F1 /* SismoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SismoUITests.swift; sourceTree = "<group>"; };
 		46595CC61F74AA94000162F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46595CD31F74AAD9000162F1 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		54390C171F74CD8200F7E5C6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../Utilities.swift; sourceTree = "<group>"; };
+		54390C191F74CE5900F7E5C6 /* CenterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterTableViewCell.swift; sourceTree = "<group>"; };
 		C8B761F8681BB97E40813331 /* Pods-Sismo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sismo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sismo/Pods-Sismo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,9 +110,11 @@
 		46595CA11F74AA94000162F1 /* Sismo */ = {
 			isa = PBXGroup;
 			children = (
+				54390C1C1F74D28900F7E5C6 /* Custom */,
 				46595CD21F74AAB2000162F1 /* API */,
 				46595CA21F74AA94000162F1 /* AppDelegate.swift */,
 				46595CA41F74AA94000162F1 /* AcopiosViewController.swift */,
+				54390C1B1F74D23500F7E5C6 /* Cells */,
 				46595CA81F74AA94000162F1 /* Main.storyboard */,
 				46595CAB1F74AA94000162F1 /* Assets.xcassets */,
 				46595CAD1F74AA94000162F1 /* LaunchScreen.storyboard */,
@@ -141,6 +147,22 @@
 				46595CD31F74AAD9000162F1 /* ApiManager.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		54390C1B1F74D23500F7E5C6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				54390C191F74CE5900F7E5C6 /* CenterTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		54390C1C1F74D28900F7E5C6 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				54390C171F74CD8200F7E5C6 /* Utilities.swift */,
+			);
+			name = Custom;
 			sourceTree = "<group>";
 		};
 		C63CEEB217364F701FC83876 /* Frameworks */ = {
@@ -387,7 +409,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46595CA31F74AA94000162F1 /* AppDelegate.swift in Sources */,
+				54390C1A1F74CE5900F7E5C6 /* CenterTableViewCell.swift in Sources */,
 				46595CD41F74AAD9000162F1 /* ApiManager.swift in Sources */,
+				54390C181F74CD8200F7E5C6 /* Utilities.swift in Sources */,
 				46595CA51F74AA94000162F1 /* AcopiosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
