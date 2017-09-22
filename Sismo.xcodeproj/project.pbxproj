@@ -231,7 +231,6 @@
 				TargetAttributes = {
 					46595C9E1F74AA94000162F1 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = W7764ZQNWC;
 						ProvisioningStyle = Automatic;
 					};
 					46595CB41F74AA94000162F1 = {
@@ -542,7 +541,7 @@
 			baseConfigurationReference = 19C4D60A3B7DF6380A54DB7D /* Pods-Sismo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W7764ZQNWC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Sismo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huerdo.Sismo;
@@ -556,7 +555,7 @@
 			baseConfigurationReference = C8B761F8681BB97E40813331 /* Pods-Sismo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W7764ZQNWC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Sismo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huerdo.Sismo;

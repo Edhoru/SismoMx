@@ -1,2 +1,7 @@
 # Cocoapods
 Pods/
+*.xcbkptlist
+
+Sismo.xcworkspace/xcuserdata/edhoru.xcuserdatad/UserInterfaceState.xcuserstate
+
+*.xcuserstate
