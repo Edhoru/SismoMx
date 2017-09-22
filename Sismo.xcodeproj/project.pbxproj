@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CAA393ABB380E103DE18336 /* Pods_Sismo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33491918D1915A6C767763A2 /* Pods_Sismo.framework */; };
+		46595CA31F74AA94000162F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46595CA21F74AA94000162F1 /* AppDelegate.swift */; };
+		46595CA51F74AA94000162F1 /* AcopiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46595CA41F74AA94000162F1 /* AcopiosViewController.swift */; };
+		46595CAA1F74AA94000162F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46595CA81F74AA94000162F1 /* Main.storyboard */; };
+		46595CAC1F74AA94000162F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46595CAB1F74AA94000162F1 /* Assets.xcassets */; };
+		46595CAF1F74AA94000162F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46595CAD1F74AA94000162F1 /* LaunchScreen.storyboard */; };
+		46595CBA1F74AA94000162F1 /* SismoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46595CB91F74AA94000162F1 /* SismoTests.swift */; };
+		46595CC51F74AA94000162F1 /* SismoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46595CC41F74AA94000162F1 /* SismoUITests.swift */; };
+		46595CD41F74AAD9000162F1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46595CD31F74AAD9000162F1 /* ApiManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46595CB61F74AA94000162F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46595C971F74AA94000162F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46595C9E1F74AA94000162F1;
+			remoteInfo = Sismo;
+		};
+		46595CC11F74AA94000162F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46595C971F74AA94000162F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46595C9E1F74AA94000162F1;
+			remoteInfo = Sismo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19C4D60A3B7DF6380A54DB7D /* Pods-Sismo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sismo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sismo/Pods-Sismo.debug.xcconfig"; sourceTree = "<group>"; };
+		33491918D1915A6C767763A2 /* Pods_Sismo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sismo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46595C9F1F74AA94000162F1 /* Sismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46595CA21F74AA94000162F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46595CA41F74AA94000162F1 /* AcopiosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcopiosViewController.swift; sourceTree = "<group>"; };
+		46595CA91F74AA94000162F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46595CAB1F74AA94000162F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46595CAE1F74AA94000162F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46595CB01F74AA94000162F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46595CB51F74AA94000162F1 /* SismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46595CB91F74AA94000162F1 /* SismoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SismoTests.swift; sourceTree = "<group>"; };
+		46595CBB1F74AA94000162F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46595CC01F74AA94000162F1 /* SismoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SismoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46595CC41F74AA94000162F1 /* SismoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SismoUITests.swift; sourceTree = "<group>"; };
+		46595CC61F74AA94000162F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46595CD31F74AAD9000162F1 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		C8B761F8681BB97E40813331 /* Pods-Sismo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sismo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sismo/Pods-Sismo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46595C9C1F74AA94000162F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAA393ABB380E103DE18336 /* Pods_Sismo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46595CB21F74AA94000162F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46595CBD1F74AA94000162F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46595C961F74AA94000162F1 = {
+			isa = PBXGroup;
+			children = (
+				46595CA11F74AA94000162F1 /* Sismo */,
+				46595CB81F74AA94000162F1 /* SismoTests */,
+				46595CC31F74AA94000162F1 /* SismoUITests */,
+				46595CA01F74AA94000162F1 /* Products */,
+				D3C43F7995A023315796561B /* Pods */,
+				C63CEEB217364F701FC83876 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46595CA01F74AA94000162F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46595C9F1F74AA94000162F1 /* Sismo.app */,
+				46595CB51F74AA94000162F1 /* SismoTests.xctest */,
+				46595CC01F74AA94000162F1 /* SismoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46595CA11F74AA94000162F1 /* Sismo */ = {
+			isa = PBXGroup;
+			children = (
+				46595CD21F74AAB2000162F1 /* API */,
+				46595CA21F74AA94000162F1 /* AppDelegate.swift */,
+				46595CA41F74AA94000162F1 /* AcopiosViewController.swift */,
+				46595CA81F74AA94000162F1 /* Main.storyboard */,
+				46595CAB1F74AA94000162F1 /* Assets.xcassets */,
+				46595CAD1F74AA94000162F1 /* LaunchScreen.storyboard */,
+				46595CB01F74AA94000162F1 /* Info.plist */,
+			);
+			path = Sismo;
+			sourceTree = "<group>";
+		};
+		46595CB81F74AA94000162F1 /* SismoTests */ = {
+			isa = PBXGroup;
+			children = (
+				46595CB91F74AA94000162F1 /* SismoTests.swift */,
+				46595CBB1F74AA94000162F1 /* Info.plist */,
+			);
+			path = SismoTests;
+			sourceTree = "<group>";
+		};
+		46595CC31F74AA94000162F1 /* SismoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46595CC41F74AA94000162F1 /* SismoUITests.swift */,
+				46595CC61F74AA94000162F1 /* Info.plist */,
+			);
+			path = SismoUITests;
+			sourceTree = "<group>";
+		};
+		46595CD21F74AAB2000162F1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				46595CD31F74AAD9000162F1 /* ApiManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C63CEEB217364F701FC83876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33491918D1915A6C767763A2 /* Pods_Sismo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3C43F7995A023315796561B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19C4D60A3B7DF6380A54DB7D /* Pods-Sismo.debug.xcconfig */,
+				C8B761F8681BB97E40813331 /* Pods-Sismo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46595C9E1F74AA94000162F1 /* Sismo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46595CC91F74AA94000162F1 /* Build configuration list for PBXNativeTarget "Sismo" */;
+			buildPhases = (
+				6429F7D2628BEB8B3F3C121E /* [CP] Check Pods Manifest.lock */,
+				46595C9B1F74AA94000162F1 /* Sources */,
+				46595C9C1F74AA94000162F1 /* Frameworks */,
+				46595C9D1F74AA94000162F1 /* Resources */,
+				615792AC7EAD6B0F6E8D1EE4 /* [CP] Embed Pods Frameworks */,
+				1B8BB5EA2E9493F522796D40 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sismo;
+			productName = Sismo;
+			productReference = 46595C9F1F74AA94000162F1 /* Sismo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46595CB41F74AA94000162F1 /* SismoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46595CCC1F74AA94000162F1 /* Build configuration list for PBXNativeTarget "SismoTests" */;
+			buildPhases = (
+				46595CB11F74AA94000162F1 /* Sources */,
+				46595CB21F74AA94000162F1 /* Frameworks */,
+				46595CB31F74AA94000162F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46595CB71F74AA94000162F1 /* PBXTargetDependency */,
+			);
+			name = SismoTests;
+			productName = SismoTests;
+			productReference = 46595CB51F74AA94000162F1 /* SismoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46595CBF1F74AA94000162F1 /* SismoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46595CCF1F74AA94000162F1 /* Build configuration list for PBXNativeTarget "SismoUITests" */;
+			buildPhases = (
+				46595CBC1F74AA94000162F1 /* Sources */,
+				46595CBD1F74AA94000162F1 /* Frameworks */,
+				46595CBE1F74AA94000162F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46595CC21F74AA94000162F1 /* PBXTargetDependency */,
+			);
+			name = SismoUITests;
+			productName = SismoUITests;
+			productReference = 46595CC01F74AA94000162F1 /* SismoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46595C971F74AA94000162F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = huerdo;
+				TargetAttributes = {
+					46595C9E1F74AA94000162F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W7764ZQNWC;
+						ProvisioningStyle = Automatic;
+					};
+					46595CB41F74AA94000162F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W7764ZQNWC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46595C9E1F74AA94000162F1;
+					};
+					46595CBF1F74AA94000162F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W7764ZQNWC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46595C9E1F74AA94000162F1;
+					};
+				};
+			};
+			buildConfigurationList = 46595C9A1F74AA94000162F1 /* Build configuration list for PBXProject "Sismo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46595C961F74AA94000162F1;
+			productRefGroup = 46595CA01F74AA94000162F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46595C9E1F74AA94000162F1 /* Sismo */,
+				46595CB41F74AA94000162F1 /* SismoTests */,
+				46595CBF1F74AA94000162F1 /* SismoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46595C9D1F74AA94000162F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46595CAF1F74AA94000162F1 /* LaunchScreen.storyboard in Resources */,
+				46595CAC1F74AA94000162F1 /* Assets.xcassets in Resources */,
+				46595CAA1F74AA94000162F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46595CB31F74AA94000162F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46595CBE1F74AA94000162F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B8BB5EA2E9493F522796D40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sismo/Pods-Sismo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sismo/Pods-Sismo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		615792AC7EAD6B0F6E8D1EE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sismo/Pods-Sismo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CMDQueryStringSerialization/CMDQueryStringSerialization.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ISO8601/ISO8601.framework",
+				"${BUILT_PRODUCTS_DIR}/NohanaImagePicker/NohanaImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleAuth/SimpleAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CMDQueryStringSerialization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ISO8601.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NohanaImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sismo/Pods-Sismo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6429F7D2628BEB8B3F3C121E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sismo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46595C9B1F74AA94000162F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46595CA31F74AA94000162F1 /* AppDelegate.swift in Sources */,
+				46595CD41F74AAD9000162F1 /* ApiManager.swift in Sources */,
+				46595CA51F74AA94000162F1 /* AcopiosViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46595CB11F74AA94000162F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46595CBA1F74AA94000162F1 /* SismoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46595CBC1F74AA94000162F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46595CC51F74AA94000162F1 /* SismoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46595CB71F74AA94000162F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46595C9E1F74AA94000162F1 /* Sismo */;
+			targetProxy = 46595CB61F74AA94000162F1 /* PBXContainerItemProxy */;
+		};
+		46595CC21F74AA94000162F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46595C9E1F74AA94000162F1 /* Sismo */;
+			targetProxy = 46595CC11F74AA94000162F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46595CA81F74AA94000162F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46595CA91F74AA94000162F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46595CAD1F74AA94000162F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46595CAE1F74AA94000162F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46595CC71F74AA94000162F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46595CC81F74AA94000162F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46595CCA1F74AA94000162F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C4D60A3B7DF6380A54DB7D /* Pods-Sismo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7764ZQNWC;
+				INFOPLIST_FILE = Sismo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huerdo.Sismo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46595CCB1F74AA94000162F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B761F8681BB97E40813331 /* Pods-Sismo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7764ZQNWC;
+				INFOPLIST_FILE = Sismo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huerdo.Sismo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46595CCD1F74AA94000162F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W7764ZQNWC;
+				INFOPLIST_FILE = SismoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huerdo.SismoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sismo.app/Sismo";
+			};
+			name = Debug;
+		};
+		46595CCE1F74AA94000162F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W7764ZQNWC;
+				INFOPLIST_FILE = SismoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huerdo.SismoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sismo.app/Sismo";
+			};
+			name = Release;
+		};
+		46595CD01F74AA94000162F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W7764ZQNWC;
+				INFOPLIST_FILE = SismoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huerdo.SismoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sismo;
+			};
+			name = Debug;
+		};
+		46595CD11F74AA94000162F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W7764ZQNWC;
+				INFOPLIST_FILE = SismoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huerdo.SismoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sismo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46595C9A1F74AA94000162F1 /* Build configuration list for PBXProject "Sismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46595CC71F74AA94000162F1 /* Debug */,
+				46595CC81F74AA94000162F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46595CC91F74AA94000162F1 /* Build configuration list for PBXNativeTarget "Sismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46595CCA1F74AA94000162F1 /* Debug */,
+				46595CCB1F74AA94000162F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46595CCC1F74AA94000162F1 /* Build configuration list for PBXNativeTarget "SismoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46595CCD1F74AA94000162F1 /* Debug */,
+				46595CCE1F74AA94000162F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46595CCF1F74AA94000162F1 /* Build configuration list for PBXNativeTarget "SismoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46595CD01F74AA94000162F1 /* Debug */,
+				46595CD11F74AA94000162F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46595C971F74AA94000162F1 /* Project object */;
+}
